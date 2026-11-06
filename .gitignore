@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+# Preserve the original archive locally, but never stage or upload it.
+/data/raw/*.zip

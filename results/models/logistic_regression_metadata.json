@@ -1,0 +1,12 @@
+{
+  "params": {
+    "C": 3.0,
+    "class_weight": null
+  },
+  "refit_train_rows": 18000,
+  "calibration_rows": 4500,
+  "calibrator": "CalibratedClassifierCV(FrozenEstimator(base), method='sigmoid')",
+  "base_predictions_unchanged_after_calibration_fit": true,
+  "refit_fit_seconds": 0.4168470420408994,
+  "refit_warnings": []
+}

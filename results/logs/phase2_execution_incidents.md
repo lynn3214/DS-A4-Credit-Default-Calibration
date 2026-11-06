@@ -1,0 +1,13 @@
+# Phase 2 Execution Incidents
+
+This log preserves implementation and execution failures rather than treating them as model results.
+
+1. **Notebook kernel in sandbox:** the initial `nbconvert --execute` attempt failed before model work because the sandbox disallowed binding a localhost port (`Operation not permitted`). The same local kernel operation was then run through the required escalation path.
+2. **Repeated full-search attempt:** during notebook command/session troubleshooting, a duplicate full-search invocation was started. It was interrupted while Random Forest CV was fitting. The interrupted invocation is not treated as final evidence. The saved aggregate CV file was checked to contain all 180 planned fold/configuration rows, all successful, with 60 rows per model. Selected-model artifacts and predictions were validated against the frozen indices and protocol.
+3. **Report finalizer invocation:** running the finalizer as a file initially failed to import the project package; it was run as `python -m scripts.finalize_reports` from the project root. An initial use of `.to_numpy()` on a NumPy-backed pandas categorical also failed; conversion was corrected and the report finalizer then completed successfully without refitting models.
+4. **Notebook report cell:** a clean-kernel notebook execution exposed a missing `one_class_bootstrap_resamples` key in the summary manifest. The finalizer now derives that count from saved bootstrap rows. The final clean-kernel notebook execution exited successfully and wrote the executed notebook.
+5. **Floating-point unit assertion:** the exact equality test for ECE `0.05` failed because the computed float was `0.050000000000000024`. The assertion was changed to numerical tolerance. Two additional artifact checks cover shared bootstrap rows and locked threshold application; the final targeted suite passed (10 tests).
+6. **Curve rendering implementation:** review found the plotting code called `plot` once per curve point. It now groups points and plots one line per model. This is an implementation/performance correction only; no protocol, fitted estimator, threshold, or evaluation result changed.
+7. **Top-K report duplication:** the first locked-decision record repeated identical Top-K policies once per cost ratio. The finalizer now emits exactly one policy per model/capacity pair (9 rows total); Top-K membership and all probability-threshold decisions are unchanged. A targeted test checks that no model/capacity pair is duplicated.
+
+The verified complete CV fit time was 1,155.34 seconds in aggregate. The reporting finalizer itself runs without model fitting and validates the existing artifacts before writing slice tables and figures.

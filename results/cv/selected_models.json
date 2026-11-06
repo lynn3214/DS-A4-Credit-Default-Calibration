@@ -1,0 +1,31 @@
+{
+  "Logistic Regression": {
+    "config_index": 11,
+    "params": {
+      "C": 3.0,
+      "class_weight": null
+    },
+    "mean_cv_ap": 0.5425019234887385,
+    "std_cv_ap": 0.010895826872730692
+  },
+  "Random Forest": {
+    "config_index": 4,
+    "params": {
+      "max_depth": 8,
+      "min_samples_leaf": 5,
+      "max_features": 0.7
+    },
+    "mean_cv_ap": 0.5565176431716934,
+    "std_cv_ap": 0.017409997094735608
+  },
+  "HistGradientBoosting": {
+    "config_index": 1,
+    "params": {
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 15,
+      "l2_regularization": 0.0
+    },
+    "mean_cv_ap": 0.5605826054347673,
+    "std_cv_ap": 0.0136686283788839
+  }
+}

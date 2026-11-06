@@ -1,0 +1,52 @@
+field,group,model,n,positive,negative,tp,fp,tn,fn
+SEX,1,Logistic Regression,1779,421,1358,118,40,1318,303
+SEX,1,Random Forest,1779,421,1358,128,36,1322,293
+SEX,1,HistGradientBoosting,1779,421,1358,129,38,1320,292
+SEX,2,Logistic Regression,2721,574,2147,180,78,2069,394
+SEX,2,Random Forest,2721,574,2147,184,77,2070,390
+SEX,2,HistGradientBoosting,2721,574,2147,180,73,2074,394
+EDUCATION,1,Logistic Regression,1628,329,1299,87,25,1274,242
+EDUCATION,1,Random Forest,1628,329,1299,98,27,1272,231
+EDUCATION,1,HistGradientBoosting,1628,329,1299,98,27,1272,231
+EDUCATION,2,Logistic Regression,2024,465,1559,150,54,1505,315
+EDUCATION,2,Random Forest,2024,465,1559,157,48,1511,308
+EDUCATION,2,HistGradientBoosting,2024,465,1559,150,45,1514,315
+EDUCATION,3,Logistic Regression,778,195,583,60,36,547,135
+EDUCATION,3,Random Forest,778,195,583,56,33,550,139
+EDUCATION,3,HistGradientBoosting,778,195,583,60,34,549,135
+EDUCATION,4,Logistic Regression,22,0,22,0,0,22,0
+EDUCATION,4,Random Forest,22,0,22,0,0,22,0
+EDUCATION,4,HistGradientBoosting,22,0,22,0,0,22,0
+EDUCATION,5,Logistic Regression,39,4,35,1,1,34,3
+EDUCATION,5,Random Forest,39,4,35,1,3,32,3
+EDUCATION,5,HistGradientBoosting,39,4,35,1,3,32,3
+EDUCATION,6,Logistic Regression,9,2,7,0,2,5,2
+EDUCATION,6,Random Forest,9,2,7,0,2,5,2
+EDUCATION,6,HistGradientBoosting,9,2,7,0,2,5,2
+MARRIAGE,0,Logistic Regression,7,0,7,0,1,6,0
+MARRIAGE,0,Random Forest,7,0,7,0,0,7,0
+MARRIAGE,0,HistGradientBoosting,7,0,7,0,0,7,0
+MARRIAGE,1,Logistic Regression,2044,482,1562,141,52,1510,341
+MARRIAGE,1,Random Forest,2044,482,1562,154,51,1511,328
+MARRIAGE,1,HistGradientBoosting,2044,482,1562,151,49,1513,331
+MARRIAGE,2,Logistic Regression,2389,501,1888,154,64,1824,347
+MARRIAGE,2,Random Forest,2389,501,1888,155,60,1828,346
+MARRIAGE,2,HistGradientBoosting,2389,501,1888,155,60,1828,346
+MARRIAGE,3,Logistic Regression,60,12,48,3,1,47,9
+MARRIAGE,3,Random Forest,60,12,48,3,2,46,9
+MARRIAGE,3,HistGradientBoosting,60,12,48,3,2,46,9
+AGE_band,30-39,Logistic Regression,1658,334,1324,88,35,1289,246
+AGE_band,30-39,Random Forest,1658,334,1324,95,36,1288,239
+AGE_band,30-39,HistGradientBoosting,1658,334,1324,94,35,1289,240
+AGE_band,40-49,Logistic Regression,952,236,716,72,23,693,164
+AGE_band,40-49,Random Forest,952,236,716,74,21,695,162
+AGE_band,40-49,HistGradientBoosting,952,236,716,77,22,694,159
+AGE_band,50-59,Logistic Regression,369,85,284,25,15,269,60
+AGE_band,50-59,Random Forest,369,85,284,27,13,271,58
+AGE_band,50-59,HistGradientBoosting,369,85,284,27,11,273,58
+AGE_band,60+,Logistic Regression,60,16,44,3,3,41,13
+AGE_band,60+,Random Forest,60,16,44,5,3,41,11
+AGE_band,60+,HistGradientBoosting,60,16,44,5,3,41,11
+AGE_band,<30,Logistic Regression,1461,324,1137,110,42,1095,214
+AGE_band,<30,Random Forest,1461,324,1137,111,40,1097,213
+AGE_band,<30,HistGradientBoosting,1461,324,1137,106,40,1097,218

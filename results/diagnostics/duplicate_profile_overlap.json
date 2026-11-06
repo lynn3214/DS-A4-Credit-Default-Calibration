@@ -1,0 +1,20 @@
+{
+  "calibration": {
+    "n": 4500,
+    "overlap_n": 128,
+    "overlap_fraction": 0.028444444444444446,
+    "nonoverlap_n": 4372
+  },
+  "threshold_selection": {
+    "n": 3000,
+    "overlap_n": 101,
+    "overlap_fraction": 0.033666666666666664,
+    "nonoverlap_n": 2899
+  },
+  "final_test": {
+    "n": 4500,
+    "overlap_n": 127,
+    "overlap_fraction": 0.02822222222222222,
+    "nonoverlap_n": 4373
+  }
+}

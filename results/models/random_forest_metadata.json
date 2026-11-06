@@ -1,0 +1,13 @@
+{
+  "params": {
+    "max_depth": 8,
+    "min_samples_leaf": 5,
+    "max_features": 0.7
+  },
+  "refit_train_rows": 18000,
+  "calibration_rows": 4500,
+  "calibrator": "CalibratedClassifierCV(FrozenEstimator(base), method='sigmoid')",
+  "base_predictions_unchanged_after_calibration_fit": true,
+  "refit_fit_seconds": 20.42408400005661,
+  "refit_warnings": []
+}

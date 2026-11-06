@@ -1,0 +1,13 @@
+model,config_index,params,complete,mean_ap,std_ap,config_fit_seconds,params_json
+Logistic Regression,1,,True,0.5356480937421767,0.01908434140566677,0.8261083330726251,"{""C"": 0.01, ""class_weight"": null}"
+Logistic Regression,2,,True,0.5343852410122893,0.019153776418097103,0.8329414579784498,"{""C"": 0.01, ""class_weight"": ""balanced""}"
+Logistic Regression,3,,True,0.5384774482100164,0.016878174999062728,0.8339505000039935,"{""C"": 0.03, ""class_weight"": null}"
+Logistic Regression,4,,True,0.5373660049465878,0.017305102946918564,1.2425579170230776,"{""C"": 0.03, ""class_weight"": ""balanced""}"
+Logistic Regression,5,,True,0.5405956441223452,0.01589122402434231,0.9743522920180112,"{""C"": 0.1, ""class_weight"": null}"
+Logistic Regression,6,,True,0.539849736245208,0.016586866176958003,1.4809133749222383,"{""C"": 0.1, ""class_weight"": ""balanced""}"
+Logistic Regression,7,,True,0.5408703824166852,0.013918061846959769,1.0993445420172065,"{""C"": 0.3, ""class_weight"": null}"
+Logistic Regression,8,,True,0.5400907557578283,0.015119967998213734,1.3402029999997467,"{""C"": 0.3, ""class_weight"": ""balanced""}"
+Logistic Regression,9,,True,0.5421174971414884,0.011992375156156523,1.4364532079780474,"{""C"": 1.0, ""class_weight"": null}"
+Logistic Regression,10,,True,0.5404765668327285,0.013282736157343766,1.7307834170060232,"{""C"": 1.0, ""class_weight"": ""balanced""}"
+Logistic Regression,11,,True,0.5425019234887385,0.010895826872730692,1.6605857909889892,"{""C"": 3.0, ""class_weight"": null}"
+Logistic Regression,12,,True,0.5403572867500535,0.012355492581051153,2.478849916951731,"{""C"": 3.0, ""class_weight"": ""balanced""}"

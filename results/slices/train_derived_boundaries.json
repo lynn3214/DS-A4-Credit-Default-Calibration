@@ -1,0 +1,13 @@
+{
+  "derived_only_from_train_cv": true,
+  "limit_balance_tertile_cutpoints": [
+    80000.0,
+    200000.0
+  ],
+  "signed_september_bill_to_limit_ratio": "BILL_AMT1 / LIMIT_BAL; negative values retained",
+  "bill_to_limit_tertile_cutpoints": [
+    0.06250888888888888,
+    0.6666
+  ],
+  "bill_to_limit_slice_status": "included"
+}

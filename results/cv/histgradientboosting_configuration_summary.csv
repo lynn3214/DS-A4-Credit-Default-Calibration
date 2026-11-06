@@ -1,0 +1,13 @@
+model,config_index,params,complete,mean_ap,std_ap,config_fit_seconds,params_json
+HistGradientBoosting,1,,True,0.5605826054347673,0.0136686283788839,11.196144541958347,"{""l2_regularization"": 0.0, ""learning_rate"": 0.03, ""max_leaf_nodes"": 15}"
+HistGradientBoosting,2,,True,0.5603390087454582,0.015314943604839098,10.957133874995634,"{""l2_regularization"": 1.0, ""learning_rate"": 0.03, ""max_leaf_nodes"": 15}"
+HistGradientBoosting,3,,True,0.5588914392855162,0.01457664119461178,19.261036042007618,"{""l2_regularization"": 0.0, ""learning_rate"": 0.03, ""max_leaf_nodes"": 31}"
+HistGradientBoosting,4,,True,0.5597663967542135,0.012627463670979912,19.546259916969575,"{""l2_regularization"": 1.0, ""learning_rate"": 0.03, ""max_leaf_nodes"": 31}"
+HistGradientBoosting,5,,True,0.5493703900955562,0.00895043958679482,10.380147624993697,"{""l2_regularization"": 0.0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}"
+HistGradientBoosting,6,,True,0.5510864800052419,0.014138843069612158,10.382296541938558,"{""l2_regularization"": 1.0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}"
+HistGradientBoosting,7,,True,0.5440767560975528,0.008990755873438871,17.327971125021577,"{""l2_regularization"": 0.0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}"
+HistGradientBoosting,8,,True,0.5452488935243845,0.014718874306875865,17.563801583019085,"{""l2_regularization"": 1.0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}"
+HistGradientBoosting,9,,True,0.536369477703614,0.010775749849150702,10.134167207987048,"{""l2_regularization"": 0.0, ""learning_rate"": 0.2, ""max_leaf_nodes"": 15}"
+HistGradientBoosting,10,,True,0.5396429494862006,0.015670427431502158,9.821887707919814,"{""l2_regularization"": 1.0, ""learning_rate"": 0.2, ""max_leaf_nodes"": 15}"
+HistGradientBoosting,11,,True,0.5308175932258811,0.011067888827299095,16.843503166921437,"{""l2_regularization"": 0.0, ""learning_rate"": 0.2, ""max_leaf_nodes"": 31}"
+HistGradientBoosting,12,,True,0.5325123645958396,0.014014092108750044,17.55289020901546,"{""l2_regularization"": 1.0, ""learning_rate"": 0.2, ""max_leaf_nodes"": 31}"

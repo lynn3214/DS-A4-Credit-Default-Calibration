@@ -1,0 +1,24 @@
+{
+  "status": "Phase 2 core experiment and reports complete; independent review pending",
+  "protocol_sha256": "03ffa36a02fcdbbf8df8484ffdb84f58e063819899409812cb4e46a87abae418",
+  "split_sha256": "ded744149bd5afead62f3355d773eded3e9be1c8a53a5deabee38e104f42b1ed",
+  "source_sha256": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602",
+  "cv_fit_seconds_by_model": {
+    "HistGradientBoosting": 170.86625708360225,
+    "Logistic Regression": 8.99953621032182,
+    "Random Forest": 975.4749579175841
+  },
+  "cv_fit_seconds_total": 1155.3407512115082,
+  "cv_config_fold_fits": 180,
+  "cv_failures": 0,
+  "convergence_warning_count": 0,
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 2026,
+  "one_class_bootstrap_resamples": 0,
+  "python": "3.10.18 | packaged by conda-forge | (main, Jun  4 2025, 14:46:00) [Clang 18.1.8 ]",
+  "pandas": "2.3.1",
+  "numpy": "2.2.6",
+  "scikit_learn": "1.7.1",
+  "wall_seconds_for_report_finalization": 2.2268617920344695,
+  "model_training_performed_by_this_finalizer": false
+}

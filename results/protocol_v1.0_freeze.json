@@ -1,0 +1,9 @@
+{
+  "protocol": "docs/evaluation_protocol_v1.0.md",
+  "protocol_sha256": "03ffa36a02fcdbbf8df8484ffdb84f58e063819899409812cb4e46a87abae418",
+  "frozen_before_model_training": true,
+  "frozen_date": "2026-11-06",
+  "split_artifact": "results/audit/proposed_splits.json",
+  "split_artifact_sha256": "ded744149bd5afead62f3355d773eded3e9be1c8a53a5deabee38e104f42b1ed",
+  "source_archive_sha256": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602"
+}

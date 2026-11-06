@@ -1,0 +1,16 @@
+{
+  "status": "acquired; row-level audit not run",
+  "dataset": "UCI Default of Credit Card Clients",
+  "dataset_id": 350,
+  "source_page": "https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients",
+  "download_url": "https://archive.ics.uci.edu/static/public/350/default%2Bof%2Bcredit%2Bcard%2Bclients.zip",
+  "retrieved_date": "2026-11-06",
+  "timezone": "Asia/Singapore",
+  "archive_path": "data/raw/uci_default_credit_card_350.zip",
+  "archive_bytes": 5539494,
+  "archive_sha256": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602",
+  "zip_integrity_command": "unzip -t data/raw/uci_default_credit_card_350.zip",
+  "zip_integrity_result": "passed; one member default of credit card clients.xls (5539328 bytes)",
+  "license": "CC BY 4.0",
+  "citation": "Yeh, I. (2009). Default of Credit Card Clients [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C55S3H"
+}
