@@ -5,4 +5,7 @@ xlrd==2.0.1
 matplotlib==3.10.5
 nbformat==5.10.4
 nbclient==0.10.2
+ipykernel==6.30.1
+nbconvert==7.16.6
+jupyter_core==5.8.1
 pytest==8.4.2

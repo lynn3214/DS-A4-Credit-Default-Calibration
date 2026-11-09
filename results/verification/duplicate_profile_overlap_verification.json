@@ -1,0 +1,12 @@
+{
+  "test_n": 4500,
+  "overlap_n": 127,
+  "overlap_fraction": 0.02822222222222222,
+  "nonoverlap_n": 4373,
+  "overlap_positive_n": 57,
+  "saved_overlap_n": 127,
+  "saved_overlap_fraction": 0.02822222222222222,
+  "overlap_count_matches": true,
+  "fraction_matches": true,
+  "interpretation": "Exact feature-profile overlap does not prove duplicate persons."
+}

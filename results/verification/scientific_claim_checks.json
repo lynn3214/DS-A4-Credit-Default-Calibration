@@ -1,0 +1,46 @@
+{
+  "calibration_not_universally_beneficial": {
+    "Logistic Regression": {
+      "brier_raw": 0.13527650760502455,
+      "brier_sigmoid": 0.13553424200545727,
+      "brier_change": 0.0002577344004327242,
+      "ece_raw": 0.013701378659334263,
+      "ece_sigmoid": 0.015377813207915522,
+      "ece_change": 0.0016764345485812595
+    },
+    "Random Forest": {
+      "brier_raw": 0.13274187727259637,
+      "brier_sigmoid": 0.13367732672263394,
+      "brier_change": 0.0009354494500375676,
+      "ece_raw": 0.013152649925227165,
+      "ece_sigmoid": 0.017845529091173856,
+      "ece_change": 0.004692879165946691
+    },
+    "HistGradientBoosting": {
+      "brier_raw": 0.1319967727414545,
+      "brier_sigmoid": 0.1319185843613928,
+      "brier_change": -7.818838006168338e-05,
+      "ece_raw": 0.011130329866857577,
+      "ece_sigmoid": 0.010602799208784168,
+      "ece_change": -0.0005275306580734083
+    }
+  },
+  "HGB_highest_AP": true,
+  "HGB_highest_ROC_AUC": true,
+  "RF_lowest_primary_test_loss": true,
+  "RF_minus_HGB_primary_test_loss": -13.0,
+  "primary_thresholds": {
+    "Logistic Regression": {
+      "threshold": 0.5671861344347561,
+      "test_loss": 3603.0
+    },
+    "Random Forest": {
+      "threshold": 0.5713889219227475,
+      "test_loss": 3528.0
+    },
+    "HistGradientBoosting": {
+      "threshold": 0.5915269741639535,
+      "test_loss": 3541.0
+    }
+  }
+}

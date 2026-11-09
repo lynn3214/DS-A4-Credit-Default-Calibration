@@ -1,0 +1,25 @@
+model,probability_type,metric,saved,recomputed,difference,absolute_tolerance,passed,difference_class
+Logistic Regression,raw,average_precision,0.55740871857107654,0.55740871857107654,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Logistic Regression,raw,roc_auc,0.76938386655101465,0.76938386655101465,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Logistic Regression,raw,brier_score,0.13527650760502449,0.13527650760502455,5.5511151231257827e-17,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Logistic Regression,raw,ece,0.0137013786593342,0.013701378659334263,6.2450045135165055e-17,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Logistic Regression,sigmoid,average_precision,0.55740871857107654,0.55740871857107654,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Logistic Regression,sigmoid,roc_auc,0.76938386655101465,0.76938386655101465,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Logistic Regression,sigmoid,brier_score,0.13553424200545719,0.13553424200545727,8.3266726846886741e-17,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Logistic Regression,sigmoid,ece,0.0153778132079155,0.015377813207915522,2.2551405187698492e-17,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Random Forest,raw,average_precision,0.57499965508284046,0.57499965508284046,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Random Forest,raw,roc_auc,0.78200632262596859,0.78200632262596859,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Random Forest,raw,brier_score,0.13274187727259629,0.13274187727259637,8.3266726846886741e-17,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Random Forest,raw,ece,0.0131526499252271,0.013152649925227165,6.4184768611141862e-17,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Random Forest,sigmoid,average_precision,0.57499965508284046,0.57499965508284046,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Random Forest,sigmoid,roc_auc,0.78200632262596859,0.78200632262596859,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Random Forest,sigmoid,brier_score,0.13367732672263391,0.13367732672263394,2.7755575615628914e-17,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+Random Forest,sigmoid,ece,0.0178455290911738,0.017845529091173856,5.5511151231257827e-17,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+HistGradientBoosting,raw,average_precision,0.57984211138337038,0.57984211138337038,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+HistGradientBoosting,raw,roc_auc,0.78815030932121388,0.78815030932121388,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+HistGradientBoosting,raw,brier_score,0.13199677274145449,0.13199677274145449,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+HistGradientBoosting,raw,ece,0.0111303298668575,0.011130329866857577,7.6327832942979512e-17,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+HistGradientBoosting,sigmoid,average_precision,0.57984211138337038,0.57984211138337038,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+HistGradientBoosting,sigmoid,roc_auc,0.78815030932121388,0.78815030932121388,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+HistGradientBoosting,sigmoid,brier_score,0.13191858436139281,0.13191858436139281,0,9.9999999999999998e-13,True,numerical_rounding_within_tolerance
+HistGradientBoosting,sigmoid,ece,0.010602799208784101,0.010602799208784168,6.7654215563095477e-17,9.9999999999999998e-13,True,numerical_rounding_within_tolerance

@@ -1,0 +1,31 @@
+model,field,saved,recomputed,difference,passed,absolute_tolerance,difference_class
+Logistic Regression,tp,298,298,0,True,,
+Logistic Regression,fp,118,118,0,True,,
+Logistic Regression,tn,3387,3387,0,True,,
+Logistic Regression,fn,697,697,0,True,,
+Logistic Regression,flagged_n,416,416,0,True,,
+Logistic Regression,precision,0.71634615384615385,0.71634615384615385,0,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+Logistic Regression,recall,0.29949748743718591,0.29949748743718591,0,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+Logistic Regression,false_positive_rate,0.033666191155492103,0.033666191155492152,4.8572257327350599e-17,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+Logistic Regression,flagged_fraction,0.092444444444444399,0.09244444444444444,4.163336342344337e-17,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+Logistic Regression,hypothetical_loss,3603,3603,0,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+Random Forest,tp,312,312,0,True,,
+Random Forest,fp,113,113,0,True,,
+Random Forest,tn,3392,3392,0,True,,
+Random Forest,fn,683,683,0,True,,
+Random Forest,flagged_n,425,425,0,True,,
+Random Forest,precision,0.73411764705882354,0.73411764705882354,0,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+Random Forest,recall,0.31356783919597991,0.31356783919597991,0,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+Random Forest,false_positive_rate,0.032239657631954299,0.032239657631954348,4.8572257327350599e-17,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+Random Forest,flagged_fraction,0.0944444444444444,0.094444444444444442,4.163336342344337e-17,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+Random Forest,hypothetical_loss,3528,3528,0,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+HistGradientBoosting,tp,309,309,0,True,,
+HistGradientBoosting,fp,111,111,0,True,,
+HistGradientBoosting,tn,3394,3394,0,True,,
+HistGradientBoosting,fn,686,686,0,True,,
+HistGradientBoosting,flagged_n,420,420,0,True,,
+HistGradientBoosting,precision,0.73571428571428577,0.73571428571428577,0,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+HistGradientBoosting,recall,0.31055276381909541,0.31055276381909547,5.5511151231257827e-17,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+HistGradientBoosting,false_positive_rate,0.031669044222539203,0.03166904422253923,2.7755575615628914e-17,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+HistGradientBoosting,flagged_fraction,0.093333333333333296,0.093333333333333338,4.163336342344337e-17,True,9.9999999999999998e-13,numerical_rounding_within_tolerance
+HistGradientBoosting,hypothetical_loss,3541,3541,0,True,9.9999999999999998e-13,numerical_rounding_within_tolerance

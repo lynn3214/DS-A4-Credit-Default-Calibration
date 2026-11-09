@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="460" viewBox="0 0 1440 460" role="img" aria-labelledby="title description">
+  <title id="title">Frozen evaluation data flow</title>
+  <desc id="description">The 30,000-row cohort is divided into four disjoint partitions. Model selection and fitting, calibration, threshold selection, and final evaluation occur in protocol order. Final Test outcomes do not feed back into earlier decisions.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#475569" />
+    </marker>
+    <style>
+      .title { font: 700 25px Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 15px Arial, sans-serif; fill: #475569; }
+      .card-title { font: 700 18px Arial, sans-serif; fill: #0f172a; }
+      .count { font: 700 16px Arial, sans-serif; fill: #1d4ed8; }
+      .body { font: 14px Arial, sans-serif; fill: #334155; }
+      .sequence { font: 13px Arial, sans-serif; fill: #475569; }
+      .warning { font: 700 15px Arial, sans-serif; fill: #9f1239; }
+    </style>
+  </defs>
+  <rect width="1440" height="460" fill="#ffffff" />
+  <text x="40" y="44" class="title">Frozen Evaluation Data Flow</text>
+  <text x="40" y="72" class="subtitle">30,000 historical records → frozen stratified split; the four row partitions are disjoint.</text>
+  <text x="40" y="99" class="sequence">Arrows show protocol order and model-state dependencies, not transfer of observations between partitions.</text>
+
+  <g>
+    <rect x="40" y="130" width="310" height="190" rx="12" fill="#eff6ff" stroke="#60a5fa" stroke-width="2" />
+    <text x="62" y="165" class="card-title">Train + CV</text>
+    <text x="62" y="192" class="count">18,000 observations · 60%</text>
+    <text x="62" y="230" class="body">Five-fold CV and hyperparameter</text>
+    <text x="62" y="252" class="body">selection; refit each selected</text>
+    <text x="62" y="274" class="body">pipeline on Train + CV.</text>
+
+    <rect x="400" y="130" width="310" height="190" rx="12" fill="#f0fdf4" stroke="#4ade80" stroke-width="2" />
+    <text x="422" y="165" class="card-title">Calibration</text>
+    <text x="422" y="192" class="count">4,500 observations · 15%</text>
+    <text x="422" y="230" class="body">Fit sigmoid calibration maps</text>
+    <text x="422" y="252" class="body">for the already selected and</text>
+    <text x="422" y="274" class="body">fitted base models.</text>
+
+    <rect x="760" y="130" width="310" height="190" rx="12" fill="#fffbeb" stroke="#fbbf24" stroke-width="2" />
+    <text x="782" y="165" class="card-title">Threshold Selection</text>
+    <text x="782" y="192" class="count">3,000 observations · 10%</text>
+    <text x="782" y="230" class="body">Choose model-specific thresholds</text>
+    <text x="782" y="252" class="body">under the frozen cost/capacity</text>
+    <text x="782" y="274" class="body">rules, then lock them.</text>
+
+    <rect x="1120" y="130" width="280" height="190" rx="12" fill="#fff1f2" stroke="#fb7185" stroke-width="2" />
+    <text x="1142" y="165" class="card-title">Final Test</text>
+    <text x="1142" y="192" class="count">4,500 observations · 15%</text>
+    <text x="1142" y="230" class="body">One-pass evaluation of the</text>
+    <text x="1142" y="252" class="body">fixed models, probabilities,</text>
+    <text x="1142" y="274" class="body">and locked policies.</text>
+  </g>
+
+  <line x1="352" y1="225" x2="394" y2="225" stroke="#475569" stroke-width="3" marker-end="url(#arrow)" />
+  <line x1="712" y1="225" x2="754" y2="225" stroke="#475569" stroke-width="3" marker-end="url(#arrow)" />
+  <line x1="1072" y1="225" x2="1114" y2="225" stroke="#475569" stroke-width="3" marker-end="url(#arrow)" />
+
+  <rect x="40" y="355" width="1360" height="62" rx="10" fill="#fff1f2" stroke="#fda4af" />
+  <text x="65" y="393" class="warning">Final Test outcomes are reserved for evaluation; they do not feed back into model fitting, calibration, or threshold selection.</text>
+</svg>

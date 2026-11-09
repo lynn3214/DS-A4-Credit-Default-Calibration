@@ -1,0 +1,53 @@
+slice,check,expected,recomputed,passed
+all_six_PAY_nonpositive,record_count,3042,3042,True
+all_six_PAY_nonpositive,positive_count,357,357,True
+all_six_PAY_nonpositive,Logistic Regression_expected_TP_at_locked_threshold,0,0,True
+all_six_PAY_nonpositive,Logistic Regression_saved_n,3042,3042,True
+all_six_PAY_nonpositive,Logistic Regression_saved_positive,357,357,True
+all_six_PAY_nonpositive,Logistic Regression_saved_negative,2685,2685,True
+all_six_PAY_nonpositive,Logistic Regression_saved_tp,0,0,True
+all_six_PAY_nonpositive,Logistic Regression_saved_fp,0,0,True
+all_six_PAY_nonpositive,Logistic Regression_saved_tn,2685,2685,True
+all_six_PAY_nonpositive,Logistic Regression_saved_fn,357,357,True
+all_six_PAY_nonpositive,Random Forest_expected_TP_at_locked_threshold,0,0,True
+all_six_PAY_nonpositive,Random Forest_saved_n,3042,3042,True
+all_six_PAY_nonpositive,Random Forest_saved_positive,357,357,True
+all_six_PAY_nonpositive,Random Forest_saved_negative,2685,2685,True
+all_six_PAY_nonpositive,Random Forest_saved_tp,0,0,True
+all_six_PAY_nonpositive,Random Forest_saved_fp,0,0,True
+all_six_PAY_nonpositive,Random Forest_saved_tn,2685,2685,True
+all_six_PAY_nonpositive,Random Forest_saved_fn,357,357,True
+all_six_PAY_nonpositive,HistGradientBoosting_expected_TP_at_locked_threshold,0,0,True
+all_six_PAY_nonpositive,HistGradientBoosting_saved_n,3042,3042,True
+all_six_PAY_nonpositive,HistGradientBoosting_saved_positive,357,357,True
+all_six_PAY_nonpositive,HistGradientBoosting_saved_negative,2685,2685,True
+all_six_PAY_nonpositive,HistGradientBoosting_saved_tp,0,0,True
+all_six_PAY_nonpositive,HistGradientBoosting_saved_fp,0,0,True
+all_six_PAY_nonpositive,HistGradientBoosting_saved_tn,2685,2685,True
+all_six_PAY_nonpositive,HistGradientBoosting_saved_fn,357,357,True
+PAY_0_equals_zero,record_count,2229,2229,True
+PAY_0_equals_zero,positive_count,285,285,True
+PAY_0_equals_zero,Logistic Regression_expected_TP_at_locked_threshold,0,0,True
+PAY_0_equals_zero,Logistic Regression_saved_n,2229,2229,True
+PAY_0_equals_zero,Logistic Regression_saved_positive,285,285,True
+PAY_0_equals_zero,Logistic Regression_saved_negative,1944,1944,True
+PAY_0_equals_zero,Logistic Regression_saved_tp,0,0,True
+PAY_0_equals_zero,Logistic Regression_saved_fp,0,0,True
+PAY_0_equals_zero,Logistic Regression_saved_tn,1944,1944,True
+PAY_0_equals_zero,Logistic Regression_saved_fn,285,285,True
+PAY_0_equals_zero,Random Forest_expected_TP_at_locked_threshold,1,1,True
+PAY_0_equals_zero,Random Forest_saved_n,2229,2229,True
+PAY_0_equals_zero,Random Forest_saved_positive,285,285,True
+PAY_0_equals_zero,Random Forest_saved_negative,1944,1944,True
+PAY_0_equals_zero,Random Forest_saved_tp,1,1,True
+PAY_0_equals_zero,Random Forest_saved_fp,0,0,True
+PAY_0_equals_zero,Random Forest_saved_tn,1944,1944,True
+PAY_0_equals_zero,Random Forest_saved_fn,284,284,True
+PAY_0_equals_zero,HistGradientBoosting_expected_TP_at_locked_threshold,0,0,True
+PAY_0_equals_zero,HistGradientBoosting_saved_n,2229,2229,True
+PAY_0_equals_zero,HistGradientBoosting_saved_positive,285,285,True
+PAY_0_equals_zero,HistGradientBoosting_saved_negative,1944,1944,True
+PAY_0_equals_zero,HistGradientBoosting_saved_tp,0,0,True
+PAY_0_equals_zero,HistGradientBoosting_saved_fp,0,0,True
+PAY_0_equals_zero,HistGradientBoosting_saved_tn,1944,1944,True
+PAY_0_equals_zero,HistGradientBoosting_saved_fn,285,285,True

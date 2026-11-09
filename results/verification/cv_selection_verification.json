@@ -1,0 +1,26 @@
+[
+  {
+    "model": "Logistic Regression",
+    "best_config_recomputed": 11,
+    "best_config_saved": 11,
+    "mean_AP_recomputed": 0.5425019234887384,
+    "mean_AP_saved": 0.5425019234887385,
+    "passed": true
+  },
+  {
+    "model": "Random Forest",
+    "best_config_recomputed": 4,
+    "best_config_saved": 4,
+    "mean_AP_recomputed": 0.5565176431716934,
+    "mean_AP_saved": 0.5565176431716934,
+    "passed": true
+  },
+  {
+    "model": "HistGradientBoosting",
+    "best_config_recomputed": 1,
+    "best_config_saved": 1,
+    "mean_AP_recomputed": 0.5605826054347673,
+    "mean_AP_saved": 0.5605826054347673,
+    "passed": true
+  }
+]

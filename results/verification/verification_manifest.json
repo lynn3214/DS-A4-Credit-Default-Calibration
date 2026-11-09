@@ -1,0 +1,82 @@
+{
+  "verdict": "PASS",
+  "scope": "Independent verification of saved Phase 2 evidence; no training, refitting, threshold search, or source-result modification",
+  "verified_at_runtime": {
+    "python": "3.10.18 | packaged by conda-forge | (main, Jun  4 2025, 14:46:00) [Clang 18.1.8 ]",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "pandas": "2.3.1",
+    "numpy": "2.2.6",
+    "scikit_learn": "1.7.1"
+  },
+  "source_artifacts": {
+    "protocol": "docs/evaluation_protocol_v1.0.md",
+    "protocol_sha256": "03ffa36a02fcdbbf8df8484ffdb84f58e063819899409812cb4e46a87abae418",
+    "protocol_hash_matches_freeze": true,
+    "split_indices": "results/audit/proposed_splits.json",
+    "split_sha256": "ded744149bd5afead62f3355d773eded3e9be1c8a53a5deabee38e104f42b1ed",
+    "test_predictions": "results/predictions/final_test_predictions.csv",
+    "locked_decisions": "results/decisions/locked_decisions.json",
+    "reported_metrics": "results/statistics/final_test_metrics.csv",
+    "bootstrap_indices": "results/statistics/bootstrap_indices.npz",
+    "bootstrap_replicates": "results/statistics/bootstrap_replicates.csv",
+    "reported_intervals": "results/statistics/bootstrap_intervals.csv",
+    "sensitivity_test_results": "results/decisions/cost_capacity_sensitivity.csv",
+    "CV_results": "results/cv/cv_fold_results.csv",
+    "source_workbook": "data/raw/uci_default_credit_card_350.zip::default of credit card clients.xls"
+  },
+  "test_alignment": {
+    "rows": 4500,
+    "positive": 995,
+    "negative": 3505,
+    "row_position_order_matches_frozen_test": true,
+    "IDs_unique_and_aligned": true,
+    "labels_match_original_workbook": true,
+    "scores_finite_in_unit_interval": true
+  },
+  "tolerance": {
+    "absolute": 1e-12,
+    "interpretation": "Differences within 1e-12 are treated as floating-point/serialization roundoff; larger differences are discrepancies."
+  },
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 2026,
+    "saved_indices_match_default_rng_sequence": true,
+    "same_indices_used_for_all_models": true,
+    "one_class_replicates": 0,
+    "all_saved_replicate_values_match_recomputation": true,
+    "interval_comparisons_passed": true
+  },
+  "thresholds": {
+    "saved_thresholds_used_without_optimization": true,
+    "all_27_sensitivity_rows_recomputed": true,
+    "all_threshold_comparisons_passed": true
+  },
+  "critical_slices": {
+    "checks": 52,
+    "all_claim_checks_passed": true
+  },
+  "duplicate_profile_overlap": {
+    "test_n": 4500,
+    "overlap_n": 127,
+    "overlap_fraction": 0.02822222222222222,
+    "nonoverlap_n": 4373,
+    "overlap_positive_n": 57,
+    "saved_overlap_n": 127,
+    "saved_overlap_fraction": 0.02822222222222222,
+    "overlap_count_matches": true,
+    "fraction_matches": true,
+    "interpretation": "Exact feature-profile overlap does not prove duplicate persons."
+  },
+  "cv_selection": {
+    "models_checked": 3,
+    "all_saved_selections_reproduced": true
+  },
+  "numerical_comparison": {
+    "float_checks": 411,
+    "failed_float_checks": 0,
+    "failed_bootstrap_checks": 0,
+    "failed_slice_checks": 0,
+    "failed_cv_checks": 0
+  },
+  "duration_seconds": 43.33861341595184
+}
